@@ -41855,7 +41855,7 @@ www.llllllllllll.net^$third-party
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
 ! For TVs that try to connect to several garbled letter combinations
-/^[a-z]{7,15}$/
+!/^[a-z]{7,15}$/
 ! Used in malware exploits
 ||aic-ngfts.lge.com^
 
@@ -113681,11 +113681,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.baihe.com
 127.0.0.1 www.jiayuan.com
 #cant del account
-127.0.0.1 www.haier.com
 127.0.0.1 www.zhongmin.cn
 127.0.0.1 www.aihuishou.com
 127.0.0.1 www.gome.com.cn
-127.0.0.1 maimai.cn
 127.0.0.1 acc.maimai.cn
 127.0.0.1 www.qianshengqian.com
 127.0.0.1 s.tantanapp.com
@@ -122861,7 +122859,7 @@ tieba.baidu.com###j_p_postlist>div.l_post_bright:has(a.j_click_stats.img_wrap)
 ||tb1.bdstatic.com/??/tb/_/game_rank_in_head_$script
 ||tb1.bdstatic.com/tb/cms/frs/bg/$image
 !----------------------通用、广告联盟站点-----------------------
-||ad.
+
 */ad.
 */ad/$domain=~www.xingk.cc|~iqiyi.com
 */ad_
@@ -123109,7 +123107,7 @@ pageMediaControl*$script
 @@||log.vdn.apps.cntv.cn/stat.html?
 ||stat.
 */stat.
-||wan.$~image
+!||wan.$~image
 ||iwan.$third-party
 !-------------------通用脚本广告--------------------
 */51ads/
@@ -243006,7 +243004,7 @@ ff02::3         ip6-allhosts
 0.0.0.0 cdn.zenpayroll.com
 0.0.0.0 cdn.zentrick.com
 0.0.0.0 cdn.zeusclicks.com
-0.0.0.0 cdn.ziffstatic.com
+#0.0.0.0 cdn.ziffstatic.com
 0.0.0.0 cdn.zineone.com
 0.0.0.0 cdn.zorosrv.com
 0.0.0.0 cdn0.bnmla.com
